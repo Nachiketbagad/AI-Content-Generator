@@ -34,6 +34,15 @@ function SideNav() {
         <div className='flex justify-center'>
         <Image src={'/logo.svg'} alt='logo' width={50} height={50} />
         </div>
+
+        <div>
+            {MenuList.map((menu, index)=>(
+                <div>
+                    <menu.icon/>
+                    <h2>{menu.name}</h2>
+                </div>
+            ))}
+        </div>
     </div>
   )
 }
