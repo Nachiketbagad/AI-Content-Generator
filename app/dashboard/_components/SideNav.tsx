@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Home } from 'lucide-react'
+import { FileClock, Home, Settings, WalletCards } from 'lucide-react'
 
 function SideNav() {
 
@@ -11,19 +11,19 @@ function SideNav() {
             path:'/dashboard'
         }
         {
-            name:"Home",
-            icon:Home,
-            path:'/dashboard'
+            name:"History",
+            icon:FileClock,
+            path:'/dashboard/history'
         }
         {
-            name:"Home",
-            icon:Home,
-            path:'/dashboard'
+            name:"Billing",
+            icon:WalletCards,
+            path:'/dashboard/billing'
         }
         {
-            name:"Home",
-            icon:Home,
-            path:'/dashboard'
+            name:"Setting",
+            icon:Settings,
+            path:'/dashboard/setting'
         }
     ]
 
