@@ -35,9 +35,11 @@ function SideNav() {
         <Image src={'/logo.svg'} alt='logo' width={50} height={50} />
         </div>
 
-        <div>
+        <div className='mt-10'>
             {MenuList.map((menu, index)=>(
-                <div>
+                <div className='flex gap-2 mb-2 p-3
+                hover:bg-primary hover:text-white rounded-lg
+                cursor-pointer'>
                     <menu.icon/>
                     <h2>{menu.name}</h2>
                 </div>
