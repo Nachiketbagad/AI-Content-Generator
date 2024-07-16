@@ -47,7 +47,7 @@ export default [
         desc:'An AI tool that serves as your personal blog post title ideas',
         category:'Blog',
         icon:'https://cdn-icons-png.flaticon.com/128/1253/1253804.png',
-        aiPrompt:'Generate top 5 Blog Topic Ideas in bullet point only',
+        aiPrompt:'Generate top 5 Blog Topic Ideas in bullet point only, {no Description} based on niche in rich text editor format',
         slug:'blog-toic-idea',
         form: [
             {
